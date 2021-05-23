@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 8px 0;
+  color: #212121;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background: #FFC700;
+  font-family: 'Syne Mono', monospace;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: transform(-50%, 50%);
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background-image: url(Word%20Art.png);
+  display: flex;
+  justify-content: center;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin:auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #212121;
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  border-style: groove;
+  border-color: #D93030;
+}
+
+.login .loginContainer label {
+  color: white;
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+  font-family: 'Syne Mono', monospace;
+}
+
+.login .loginContainer spam {
+  color: #D93030;
+  font-family: 'Syne Mono', monospace;
+}
+
+.login .loginContainer heading{
+  font-size: 45px;
+  color: azure;
+  font-family: 'Syne Mono', monospace;
+  text-align: center;
+}
+
+.login .loginContainer icons{
+  color: azure;
+  text-align: center;
+}
+
+.login .loginContainer a {
+  color: aliceblue;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-family: 'Syne Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+  font-family: 'Syne Mono', monospace;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+  font-family: 'Syne Mono', monospace;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: #FFFFFF;
+}
+
+.hero nav {
+  background: #212121;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero nav h2 {
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Syne Mono', monospace;
+}
+
+.hero nav button {
+  width: 86px;
+  padding: 8px 0;
+  background: #212121;
+  color: whitesmoke;;
+}
+
+.hero nav button:hover{
+  color: #FFC700;
+}
+
+h2 spam {
+  color: #D93030;
+  font-family: 'Syne Mono', monospace;
+}
+
+.hero {
+  background-image: url(mera.jpg);
+  background-attachment: fixed;
+  object-fit: fill;
+}
+
+.my-card {
+  opacity: .8;
+}
+.containernew1:{
+  place-content: 'center';
+  text-align:'center';
+  margin-left: 200px;
+
+}
+.title:{
+  color: #fff;
+  font-Size:'4rem';
+  margin-left: 200px;
+}
+.colorText:{
+  color:#5AFF3D,
+}

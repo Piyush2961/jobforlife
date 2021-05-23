@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App1 {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  /* background: red; */
+}
+.my-field {
+  width: 80%;
+  color: whitesmoke;
+}
+.my-card {
+  text-align: left;
+}
+.mt-2 {
+  margin-top: 0.4rem;
+}
+.pos {
+  position: relative;
+  top: -2px;
+}
+.MuiInputBase-root,
+.uiInputBase-input {
+  color: red !important;
+}
+.MuiInputBase-root,
+.uiInputBase-input textarea{
+  color: white;
+}
+
+.textfield__label {
+  color: white !important;
+  border: whitesmoke !important;
+}
+.MuiInput-underline:before {
+  border-bottom: 1px solid white !important;
+}
+.MyIcons:hover {
+   color: yellow !important;
+}

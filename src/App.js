@@ -16,7 +16,7 @@ const App = () => {
 
   const clearInputs = () => {
     setEmail("");
-    setPasswordError("");
+    setPassword("");
   };
 
   const clearErrors = () => {

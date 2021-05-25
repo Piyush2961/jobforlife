@@ -44,7 +44,7 @@ const App = () => {
           default:
             console.log(err.message);
         }
-        setLoading(false);
+      
       });
   };
 

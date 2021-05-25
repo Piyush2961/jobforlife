@@ -52,7 +52,7 @@ const Login = (props) => {
                         <button onClick={handleSignup}>Sign up</button>
                         <p>
                             Have an account ? 
-                            <spam onClick={() => setHasAccount(!hasAccount)}> Sign in</spam>
+                            <span onClick={() => setHasAccount(!hasAccount)}> Sign in</span>
                         </p>
                         </>
                     )}
